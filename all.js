@@ -4656,7 +4656,7 @@ $(function() {
     h = {
         "Maka简介": {
             buildIn: !0,
-            content: '## Maka是什么?\n\n[Maka](https://github.com/kuanghy/maka) 是一个在线的 `Markdown` 文档的编辑器。其是基于 [Mahua](https://github.com/jserme/mahua) 做的轻微改进，感谢作者 [Jser.me](http://jser.me/) 的提供。\n\n![mahua](mahua-logo.jpg)\n\n具体改动的内容如下：\n\n- 调整编辑器行间距和字体大小，原编辑器字体太小，而且紧凑；\n- 调整预览主题行间距和字体大小；\n- 调整菜单样式\n- 更改附加信息样式\n- 更改默认文档内容\n\n## Maka有哪些功能？\n\n* 方便的`导入导出`功能\n    *  直接把一个 markdown 的文本文件拖放到当前这个页面就可以了\n    *  导出为一个 html 格式的文件，样式一点也不会丢失\n* 编辑和预览`同步滚动`，所见即所得（右上角设置）\n* `VIM快捷键`支持，方便vim党们快速的操作 （右上角设置）\n* 强大的`自定义CSS`功能，方便定制自己的展示\n* 有数量也有质量的`主题`,编辑器和预览区域\n* 完美兼容`Github`的markdown语法\n* 预览区域`代码高亮`\n* 所有选项自动记忆\n\n## 感激\n\n感谢以下项目的支持，排名不分先后：\n\n* [mahua](http://mahua.jser.me/)\n* [mou](http://mouapp.com/)\n* [ace](http://ace.ajax.org/)\n* [jquery](http://jquery.com)\n\n##关于作者\n\n```python\nauthor = {\n    "name": "huoty",\n    "nickname": "旷修，待月上弦，晚晴雪霁，旷世的忧伤",\n    "homepage": "http://konghy.cn",\n    "weibo": "http://weibo.com/loveqing2013",\n    "github": "https://github.com/kuanghy/"\n}\n```\n'
+            content: '## Maka是什么?\n\n[Maka](https://github.com/kuanghy/maka) 是一个在线的 `Markdown` 文档的编辑器。其是基于 [Mahua](https://github.com/jserme/mahua) 做的轻微改进，感谢作者 [Jser.me](http://jser.me/) 的提供。具体改动的内容如下：\n\n- 调整编辑器行间距和字体大小，原编辑器字体太小，而且紧凑；\n- 调整预览主题行间距和字体大小；\n- 调整菜单样式\n- 更改附加信息样式\n- 更改默认文档内容\n\n## Maka有哪些功能？\n\n* 方便的`导入导出`功能\n    *  直接把一个 markdown 的文本文件拖放到当前这个页面就可以了\n    *  导出为一个 html 格式的文件，样式一点也不会丢失\n* 编辑和预览`同步滚动`，所见即所得（右上角设置）\n* `VIM快捷键`支持，方便vim党们快速的操作 （右上角设置）\n* 强大的`自定义CSS`功能，方便定制自己的展示\n* 有数量也有质量的`主题`,编辑器和预览区域\n* 完美兼容`Github`的markdown语法\n* 预览区域`代码高亮`\n* 所有选项自动记忆\n\n## 感激\n\n感谢以下项目的支持，排名不分先后：\n\n* [mahua](http://mahua.jser.me/)\n* [mou](http://mouapp.com/)\n* [ace](http://ace.ajax.org/)\n* [jquery](http://jquery.com)\n\n##关于作者\n\n```python\nauthor = {\n    "name": "huoty",\n    "nickname": "旷修，待月上弦，晚晴雪霁，旷世的忧伤",\n    "homepage": "http://konghy.cn",\n    "weibo": "http://weibo.com/loveqing2013",\n    "github": "https://github.com/kuanghy/"\n}\n```\n'
         },
         "Markdown语法参考": {
             buildIn: !0,
@@ -4700,7 +4700,7 @@ $(function() {
     function(a, b) {
         $("#mahua-previewThemes").append('<option value="' + b + '" ' + (b == F ? "selected": "") + ">" + b + "</option>")
     });
-    null == d("curSession") && (f("curSession", "untitled"), s("untitled"), e = "untitled", null == j(e) && f("markContent_" + e, '![mahua](mahua-logo.jpg)\n##MaHua是什么?\n一个在线编辑markdown文档的编辑器\n\n向Mac下优秀的markdown编辑器mou致敬\n\n##MaHua有哪些功能？\n\n* 方便的`导入导出`功能\n    *  直接把一个markdown的文本文件拖放到当前这个页面就可以了\n    *  导出为一个html格式的文件，样式一点也不会丢失\n* 编辑和预览`同步滚动`，所见即所得（右上角设置）\n* `VIM快捷键`支持，方便vim党们快速的操作 （右上角设置）\n* 强大的`自定义CSS`功能，方便定制自己的展示\n* 有数量也有质量的`主题`,编辑器和预览区域\n* 完美兼容`Github`的markdown语法\n* 预览区域`代码高亮`\n* 所有选项自动记忆\n\n##有问题反馈\n在使用中有任何问题，欢迎反馈给我，可以用以下联系方式跟我交流\n\n* 邮件(dev.hubo#gmail.com, 把#换成@)\n* QQ: 287759234\n* weibo: [@草依山](http://weibo.com/ihubo)\n* twitter: [@ihubo](http://twitter.com/ihubo)\n\n##捐助开发者\n在兴趣的驱动下,写一个`免费`的东西，有欣喜，也还有汗水，希望你喜欢我的作品，同时也能支持一下。\n当然，有钱捧个钱场（右上角的爱心标志，支持支付宝和PayPal捐助），没钱捧个人场，谢谢各位。\n\n##感激\n感谢以下的项目,排名不分先后\n\n* [mou](http://mouapp.com/) \n* [ace](http://ace.ajax.org/)\n* [jquery](http://jquery.com)\n\n##关于作者\n\n```javascript\n  var ihubo = {\n    nickName  : "草依山",\n    site : "http://jser.me"\n  }\n```'));
+    null == d("curSession") && (f("curSession", "untitled"), s("untitled"), e = "untitled", null == j(e) && f("markContent_" + e, '## Maka是什么?\n\n[Maka](https://github.com/kuanghy/maka) 是一个在线的 `Markdown` 文档的编辑器。其是基于 [Mahua](https://github.com/jserme/mahua) 做的轻微改进，感谢作者 [Jser.me](http://jser.me/) 的提供。具体改动的内容如下：\n\n- 调整编辑器行间距和字体大小，原编辑器字体太小，而且紧凑；\n- 调整预览主题行间距和字体大小；\n- 调整菜单样式\n- 更改附加信息样式\n- 更改默认文档内容\n\n## Maka有哪些功能？\n\n* 方便的`导入导出`功能\n    *  直接把一个 markdown 的文本文件拖放到当前这个页面就可以了\n    *  导出为一个 html 格式的文件，样式一点也不会丢失\n* 编辑和预览`同步滚动`，所见即所得（右上角设置）\n* `VIM快捷键`支持，方便vim党们快速的操作 （右上角设置）\n* 强大的`自定义CSS`功能，方便定制自己的展示\n* 有数量也有质量的`主题`,编辑器和预览区域\n* 完美兼容`Github`的markdown语法\n* 预览区域`代码高亮`\n* 所有选项自动记忆\n\n## 感激\n\n感谢以下项目的支持，排名不分先后：\n\n* [mahua](http://mahua.jser.me/)\n* [mou](http://mouapp.com/)\n* [ace](http://ace.ajax.org/)\n* [jquery](http://jquery.com)\n\n##关于作者\n\n```python\nauthor = {\n    "name": "huoty",\n    "nickname": "旷修，待月上弦，晚晴雪霁，旷世的忧伤",\n    "homepage": "http://konghy.cn",\n    "weibo": "http://weibo.com/loveqing2013",\n    "github": "https://github.com/kuanghy/"\n}\n```\n'));
     e = d("curSession");
     u(e);
     $.each(l(),
@@ -4760,7 +4760,7 @@ $(function() {
         var a = prompt("保存的文件名", e),
         b = new BlobBuilder;
         if (a !== null) {
-            E && o(c.getSession().getValue() + "\nEdit By [Maka](http://maka.konghy.cn)");
+            E && o(c.getSession().getValue() + '<br><div style="font-style: oblique; font-size: 11px;padding: 8px;letter-spacing: 0.5px;">Edit By [Maka](http://maka.konghy.cn)</div>');
             var d = r.document.documentElement.outerHTML,
             d = d.replace(/<script[^<]*><[^>]*>/gm, "").replace(/<style\s*id="hibot[^>]*>[^<]*<[^>]*>/gm, "");
             b.append(d);
